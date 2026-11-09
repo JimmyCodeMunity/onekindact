@@ -8,19 +8,19 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://onekindact-api.vercel.app/api/:path*"
+      "destination": "https://onekindserver.vercel.app/api/:path*"
     },
     {
       "source": "/uploads/:path*",
-      "destination": "https://onekindact-api.vercel.app/uploads/:path*"
+      "destination": "https://onekindserver.vercel.app/uploads/:path*"
     },
     {
       "source": "/sitemap.xml",
-      "destination": "https://onekindact-api.vercel.app/sitemap.xml"
+      "destination": "https://onekindserver.vercel.app/sitemap.xml"
     },
     {
       "source": "/robots.txt",
-      "destination": "https://onekindact-api.vercel.app/robots.txt"
+      "destination": "https://onekindserver.vercel.app/robots.txt"
     },
     {
       "source": "/(.*)",
